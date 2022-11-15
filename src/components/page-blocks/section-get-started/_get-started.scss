@@ -1,0 +1,40 @@
+.get-started {
+  background: var(--gradient__primary);
+
+  &__inner {
+    padding: 90px 0;
+  }
+
+  &__subtitle {
+    text-align: center;
+    color: #ffffff;
+  }
+
+  &__main-title {
+    margin-top: 16px;
+    text-align: center;
+
+    color: #ffffff;
+
+    span {
+      font-weight: 500;
+    }
+  }
+
+  p {
+    margin: 30px auto;
+    max-width: 700px;
+
+    font-size: 15px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+}

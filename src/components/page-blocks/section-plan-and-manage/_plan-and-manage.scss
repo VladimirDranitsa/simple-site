@@ -1,0 +1,38 @@
+.plan-and-manage {
+  overflow: hidden;
+  background-color: var(--color__primary_dim);
+  &__inner {
+    position: relative;
+    display: flex;
+  }
+
+  &__content {
+    max-width: 420px;
+    padding: 170px 0;
+  }
+  &__subtitle {}
+  &__title {
+    margin: 27px 0;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: var(--color__secondery_dim);
+  }
+
+  &__buttons {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__img {
+    display: block;
+    position: absolute;
+    top: 12%;
+    left: 35%;
+  }
+}

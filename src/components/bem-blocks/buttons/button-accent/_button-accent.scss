@@ -1,0 +1,21 @@
+.button-accent {
+  @include no-btn;
+  padding: 15px;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--color__accent);
+  background-color: var(--color__accent_dim);
+  border-radius: 2px;
+  transition: var(--transition);
+}
+.button-accent:hover {
+  background-color: var(--color__secondery);
+  color: var(--color__accent);
+}
+.button-accent:active {
+  background-color: var(--color__accent);
+  color: var(--color__secondery);
+}

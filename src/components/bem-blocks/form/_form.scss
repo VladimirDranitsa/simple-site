@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  &__input {
+    height: 60px;
+    width: 280px;
+    padding: 20px;
+
+    border: none;
+    color: #7A85AD;
+    background-color: var(--color__secondery);
+    border-radius: 5px;
+
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+  }
+  &__button {
+    padding: 22px 60px;
+    border-radius: 5px;
+  }
+}

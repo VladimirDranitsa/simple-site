@@ -1,0 +1,31 @@
+.customers {
+  &__wrapper {
+    width: 100%;
+    max-width: 1030px;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+  &__list {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+  }
+  &__item {
+    padding: 55px 35px;
+    cursor: pointer;
+  }
+  &__item {
+    path {
+      fill: var(--color__secondery);
+      transition: var(--transition);
+    }
+  }
+  &__item:hover {
+    path {
+      fill: var(--color__primary);
+    }
+  }
+
+}

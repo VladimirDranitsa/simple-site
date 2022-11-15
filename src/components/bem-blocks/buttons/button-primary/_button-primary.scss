@@ -1,0 +1,19 @@
+.button-primary {
+  @include no-btn;
+  padding: 15px 25px;
+  color: #ffffff;
+  background-color: var(--color__primary);
+  border-radius: 2px;
+  box-shadow: 0px 5px 15px rgba(188, 199, 255, 0.75);
+  font-family: 'Quicksand';
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+
+  &:hover {
+    background-color: var(--color__primary_saturated);
+  }
+  &:active {
+    background-color: var(--color__accent);
+  }
+}

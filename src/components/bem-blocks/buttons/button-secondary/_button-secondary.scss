@@ -1,0 +1,21 @@
+.button-secondary {
+  @include no-btn;
+  padding: 15px;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--color__primary);
+  background-color: var(--color__primary_dim);
+  border-radius: 2px;
+  transition: var(--transition);
+}
+.button-secondary:hover {
+  background-color: var(--color__secondery);
+  color: var(--color__accent);
+}
+.button-secondary:active {
+  background-color: var(--color__accent);
+  color: var(--color__secondery);
+}

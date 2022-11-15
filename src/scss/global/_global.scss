@@ -4,6 +4,18 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: Roboto;
+	font-weight: 400;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 930px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
 .flex {
 	display: flex;
 	align-items: flex-start;
