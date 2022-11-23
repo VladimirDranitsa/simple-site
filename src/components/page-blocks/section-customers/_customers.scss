@@ -27,5 +27,31 @@
       fill: var(--color__primary);
     }
   }
+}
 
+@media (max-width: 1030px) {
+  .customers {
+    &__list {
+      gap: 20px;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .customers {
+    &__item {
+      padding: 25px 15px;
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .customers {
+    &__item {
+      padding: 15px 5px;
+    }
+  }
 }
